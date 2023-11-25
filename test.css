@@ -1,0 +1,49 @@
+/* *, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.theman{
+    width: 4px;
+    height: 60px;
+    background: black;
+    position: relative;
+}
+.theman .head{
+    position: absolute;
+    top: -15px;
+    width: 30px;
+    height: 30px;
+    border: 2px dashed black;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.theman .head::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.theman .hands {
+    width: 30px;
+    height: 4px;
+    top: 100%;
+    transform: translateY(-50%);
+    background: black;
+    position: absolute;
+    transform: rotate(30deg);
+} */
